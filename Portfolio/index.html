@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<header class="header">
+    <nav>
+        <div class="logo">
+            <a href="#"><span>Roshan </span>Ansari</a>
+        </div>
+        <div class="list-darkmode-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Tskills">Skills</a></li>
+                <li><a href="#toolbox">ToolBox</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#Achievement">Achievement</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" checked="checked" id="darkModeButton"/>
+                <img class="fa-sun" src="sun.png" onclick="lightMode()" >
+                <img class="fa-moon" src="moon.png" onclick="darkMode()" >
+            </label>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </div>
+    </nav>
+</header>
+    <section id="home" class="home">
+        <div class="container">
+            <div id="home-info">
+                <div id="left">
+                    <h3>Hello,I'm</h3>
+                    <h1>Roshan Ansari</h1>
+                    <h4>And I'm a <span id="multiple"></span></h4>
+                    <p>
+                        Hi! I'm Roshan Ansari a Android Programming and Web Application for Mobile Devices Development Student
+                        <br>
+                        And I'm Passionable to Create and Learn about New Things.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/roshan_ansari_0333/?hl=en"><img class="fa-instagram" src="instagram.png"></a>
+                        <a href="https://www.linkedin.com/in/roshan-ansari-16a21125a/"><img class="fa-linkedin" src="linkedin.png"></a>
+                    </div>
+                    <div class="btn">
+                        <a href="Resume.pdf" download="Resume.pdf" ><button class="Resume">Download CV</button></a>
+                        <a href="Resume.pdf" ><button class="Resume">View CV</button></a>
+                    </div>
+                </div>
+                <div id="profile-pic">
+                    <img src="profile%20pic2.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+                <div class="wrapper">
+                    <div class="About-pic">
+                        <img src="profile%20pic2.jpg" alt="Profile Image">
+                    </div>
+                    <div id="me">
+                        <h2 class="title">About <span>Me</span></h2>
+                        <h3 class="detail">Android Programming and Web Application for Mobile Devices</h3>
+                        <p>Hi! I'm Roshan Ansari a Android Application and Web Development Student
+                            And I'm Passionable to Create And Learn about New Things.</p><br>
+                        <button class="Read">Read More</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+<section id="Tskills" class="Tskills">
+    <div class="container">
+        <div class="title">
+            <h2>Techincal <span> Skills</span></h2>
+        </div>
+
+       <div class="skill">
+           <div class="language">
+               <img class="fa-java" src="java.png">
+               <h3>Java</h3>
+               <p>I'm a Java programmer and I'm continuous learning because it's use in android application. And I'm comfortably create program by using java language.</p>
+               <button class="Read">Read More</button>
+           </div>
+
+           <div class="language">
+               <img class="fa-code" src="kotlin.png">
+               <h3>Kotlin</h3>
+               <p>I'm a beginner kotlin programmer and I'm continuous learning because it's use in android application. And I'm trying to create new application by kotlin.</p>
+               <button class="Read">Read More</button>
+           </div>
+
+           <div class="language">
+               <img class="fa-python" src="python.png">
+               <h3>Python</h3>
+               <p>I'm a beginner python programmer and Dedicated to continuous learning.</p>
+               <button class="Read">Read More</button>
+           </div>
+
+           <div class="language">
+               <img class="fa-html5" src="html.png" >
+               <h3>HTML</h3>
+               <p>I'm a beginner HTML programmer and I'm continuous learning because it's use in web development for create web structure.</p>
+               <button class="Read">Read More</button>
+           </div>
+
+           <div class="language">
+               <img class="fa-css3-alt" src="css-3.png">
+               <h3>CSS</h3>
+               <p>I'm a beginner CSS programmer and I'm continuous learning because it's use in web development for apply styling.</p>
+               <button class="Read">Read More</button>
+           </div>
+
+           <div class="language">
+               <img class="fa-js" src="js.png">
+               <h3>Javascript</h3>
+               <p>I'm a beginner Javascript programmer and I'm continuous learning because it's use in web development for apply logic.</p>
+               <button class="Read">Read More</button>
+           </div>
+       </div>
+
+    </div>
+</section>
+
+<section id="toolbox" class="toolbox">
+    <div class="container">
+        <div class="title">
+            <h2>Tool <span>Box</span></h2>
+        </div>
+
+        <div class="tools">
+            <div class="tool">
+                <img class="fa-android" src="android.png"><br>
+                <h3>Android Studio</h3><br>
+                <p>I use Android Studio for Android Programming and Web Application for Mobile Devices.</p><br>
+                <button class="Read">Read More</button>
+            </div>
+
+            <div class="tool" id="tool">
+                <img class="fa-code" src="vs code.png"><br>
+                <h3>Visual Studio Code</h3><br>
+                <p>I use Visual Studio Code for Web Development and solve for some basic DSA question.</p><br>
+                <button class="Read">Read More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container">
+        <div class="title">
+            <h2>My <span>Services</span></h2>
+        </div>
+        <div class="Details">
+            <div class="item">
+                <img class="fa-android" src="android.png"><br>
+                <h3>Android Application Development</h3>
+                <p>I'm a beginner of android application development and
+                    Dedicated to continuous learning to become
+                    Nice android application development and
+                    I am really Passionate for this work</p>
+                <button class="Read">Read More</button>
+            </div>
+
+            <div class="item">
+                <img class="fa-code" src="code.png"><br>
+                <h3>Web Development</h3>
+                <p>I'm a beginner of web development and continuous learn about web development.</p>
+                <button class="Read">Read More</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="Achievement" class="Achievement">
+    <div class="container">
+        <div class="title">
+            <h2>My <span>Achievement</span></h2>
+        </div>
+
+        <div class="certificates">
+            <div class="certificate">
+                <img src="pcertificate.png">
+            </div>
+            <div class="certificate">
+                <img src="Acertificate.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="title">
+            <h2>Contact <span>Me!</span></h2>
+        </div>
+        <div class="information">
+            <form id="form">
+                <div class="inputbox">
+                    <input type="text" placeholder="Your Full Name" name="name" id="name">
+                    <input type="email" placeholder="Your Email" name="email" id="email">
+                    <input type="text" placeholder="Your Mobile Number" name="number" id="number">
+                    <input type="subject" placeholder="Email Subject" name="subject" id="subject">
+                </div>
+                <textarea rows=15 cols=35 placeholder="Your Message" id="textarea"></textarea>
+                <button id="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <p>Copyright &copy; 2024 by Roshan Ansari | All Rights Are Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
